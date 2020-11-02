@@ -36,8 +36,11 @@ where
 - A = surface area where the plates overlap
 - d = distance between the plates
 
+For this project, we will record the amount of time it takes to charge an unknown capacitor with a known resistance until it reaches 63.2% of its total voltage. Based on the time we will be able to calculate the capacitance of the capacitor using the equation: C = τ / R
+
 ### Resistor Functionality
 
+For this project we are using a 220Ω Resistor as well as a 10KΩ Resistor in order to discharge the capacitor. The voltage across the capacitor will be measured using an analog input.
 
 
 ### LCD Display Functionality
@@ -46,6 +49,7 @@ A Liquid Crystal Display or LCD for short is a flat panel display usually uses m
 
 ### Code Functionality
 
+When the sketch runs, it will begin by charging the capacitor and starting the timer. When the unknown capacitor reaches about 63.2% of its total voltage, it will detirmine how much time it took for the capcitor to reach that voltage and calculates the capacitance with the equation C = τ / R. Then it will determine whether the capacitance should displayed on the LCD as nF or uF and print it onto the LCD. Finally, the sketch discharges the capacitor until it reaches a capacitance of 0.
 
 
 ## Completed Project
@@ -56,3 +60,4 @@ A Liquid Crystal Display or LCD for short is a flat panel display usually uses m
 ## Sources
 
 [Instructables Tutorial](https://www.instructables.com/Measure-Capacitance-with-Arduino/)
+[Electronics Hub Tutorial](https://www.electronicshub.org/arduino-capacitance-meter/)
