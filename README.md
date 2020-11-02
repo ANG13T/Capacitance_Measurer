@@ -31,10 +31,10 @@ C = (εA) / d
 
 where
 
-C = capacitance
-ε = dielectric
-A = surface area where the plates overlap
-d = distance between the plates
+- C = capacitance
+- ε = dielectric
+- A = surface area where the plates overlap
+- d = distance between the plates
 
 ### Resistor Functionality
 
